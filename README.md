@@ -2,7 +2,7 @@
 
 A simple (mock) RSS subscription fetcher for practicing go concurrency patterns:
 - Use for-select loop to write more responsive code
-- Use nil channels to disable a select case
+- Use `nil` channels to disable select cases
 - Use `chan chan error` to avoid data race that usually happen in `Close()`
 
 The directory `practice` contains the necessary boilerplate code for you to practice on your own.
